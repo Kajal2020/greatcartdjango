@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)http://localhost:8000/admin/store/product/3/change/ -->
+<html lang="en-us"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Change product | Django site admin</title>
+<link rel="stylesheet" type="text/css" href="./Change product _ Django site admin_files/base.css">
+
+  <link rel="stylesheet" type="text/css" href="./Change product _ Django site admin_files/nav_sidebar.css">
+  <script src="./Change product _ Django site admin_files/nav_sidebar.js.download" defer=""></script>
+
+<link rel="stylesheet" type="text/css" href="./Change product _ Django site admin_files/forms.css">
+
+
+<script src="./Change product _ Django site admin_files/saved_resource"></script>
+<script src="./Change product _ Django site admin_files/jquery.js.download"></script>
+<script src="./Change product _ Django site admin_files/jquery.init.js.download"></script>
+<script src="./Change product _ Django site admin_files/core.js.download"></script>
+<script src="./Change product _ Django site admin_files/RelatedObjectLookups.js.download"></script>
+<script src="./Change product _ Django site admin_files/actions.js.download"></script>
+<script src="./Change product _ Django site admin_files/urlify.js.download"></script>
+<script src="./Change product _ Django site admin_files/prepopulate.js.download"></script>
+<script src="./Change product _ Django site admin_files/xregexp.js.download"></script>
+
+
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./Change product _ Django site admin_files/responsive.css">
+    
+
+<meta name="robots" content="NONE,NOARCHIVE">
+</head>
+
+
+<body class=" app-store model-product change-form" data-admin-utc-offset="0">
+
+<!-- Container -->
+<div id="container">
+
+    
+    <!-- Header -->
+    <div id="header">
+        <div id="branding">
+        
+<h1 id="site-name"><a href="http://localhost:8000/admin/">Django administration</a></h1>
+
+        </div>
+        
+        
+        <div id="user-tools">
+            
+                Welcome,
+                <strong>kajalpoojari555@gmail.com</strong>.
+            
+            
+                
+                    <a href="http://localhost:8000/">View site</a> /
+                
+                
+                    
+                    
+                
+                
+                <a href="http://localhost:8000/admin/password_change/">Change password</a> /
+                
+                <a href="http://localhost:8000/admin/logout/">Log out</a>
+            
+        </div>
+        
+        
+        
+    </div>
+    <!-- END Header -->
+    
+<div class="breadcrumbs">
+<a href="http://localhost:8000/admin/">Home</a>
+› <a href="http://localhost:8000/admin/store/">Store</a>
+› <a href="http://localhost:8000/admin/store/product/">Products</a>
+› Great T shirt
+</div>
+
+    
+
+    <div class="main shifted" id="main">
+      
+        
+          
+<button class="sticky toggle-nav-sidebar" id="toggle-nav-sidebar" aria-label="Toggle navigation"></button>
+<nav class="sticky" id="nav-sidebar">
+  
+
+
+  
+    <div class="app-accounts module">
+      <table>
+        <caption>
+          <a href="http://localhost:8000/admin/accounts/" class="section" title="Models in the Accounts application">Accounts</a>
+        </caption>
+        
+          <tbody><tr class="model-account">
+            
+              <th scope="row"><a href="http://localhost:8000/admin/accounts/account/">Accounts</a></th>
+            
+
+            
+              <td><a href="http://localhost:8000/admin/accounts/account/add/" class="addlink">Add</a></td>
+            
+
+            
+          </tr>
+        
+      </tbody></table>
+    </div>
+  
+    <div class="app-auth module">
+      <table>
+        <caption>
+          <a href="http://localhost:8000/admin/auth/" class="section" title="Models in the Authentication and Authorization application">Authentication and Authorization</a>
+        </caption>
+        
+          <tbody><tr class="model-group">
+            
+              <th scope="row"><a href="http://localhost:8000/admin/auth/group/">Groups</a></th>
+            
+
+            
+              <td><a href="http://localhost:8000/admin/auth/group/add/" class="addlink">Add</a></td>
+            
+
+            
+          </tr>
+        
+      </tbody></table>
+    </div>
+  
+    <div class="app-category module">
+      <table>
+        <caption>
+          <a href="http://localhost:8000/admin/category/" class="section" title="Models in the Category application">Category</a>
+        </caption>
+        
+          <tbody><tr class="model-category">
+            
+              <th scope="row"><a href="http://localhost:8000/admin/category/category/">Categories</a></th>
+            
+
+            
+              <td><a href="http://localhost:8000/admin/category/category/add/" class="addlink">Add</a></td>
+            
+
+            
+          </tr>
+        
+      </tbody></table>
+    </div>
+  
+    <div class="app-store module current-app">
+      <table>
+        <caption>
+          <a href="http://localhost:8000/admin/store/" class="section" title="Models in the Store application">Store</a>
+        </caption>
+        
+          <tbody><tr class="model-product current-model">
+            
+              <th scope="row"><a href="http://localhost:8000/admin/store/product/" aria-current="page">Products</a></th>
+            
+
+            
+              <td><a href="http://localhost:8000/admin/store/product/add/" class="addlink">Add</a></td>
+            
+
+            
+          </tr>
+        
+      </tbody></table>
+    </div>
+  
+
+
+</nav>
+
+        
+      
+      <div class="content">
+        
+          
+        
+        <!-- Content -->
+        <div id="content" class="colM">
+          
+          <h1>Change product</h1>
+          <div id="content-main">
+
+
+  <ul class="object-tools">
+    
+      
+
+<li>
+    
+    <a href="http://localhost:8000/admin/store/product/3/history/" class="historylink">History</a>
+</li>
+
+
+
+    
+  </ul>
+
+
+<form enctype="multipart/form-data" method="post" id="product_form" novalidate=""><input type="hidden" name="csrfmiddlewaretoken" value="kaKwtZ8hwDFgji93pHGRIVXsAVmPy33pe0hl4HwfeE1Yspe4bPf1nVoV71KEkEJL">
+<div>
+
+
+
+
+
+
+
+  <fieldset class="module aligned ">
+    
+    
+    
+        <div class="form-row field-product_name">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_product_name">Product name:</label>
+                        
+                            <input type="text" name="product_name" value="Great T shirt" class="vTextField" maxlength="200" required="" id="id_product_name">
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-slug">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_slug">Slug:</label>
+                        
+                            <input type="text" name="slug" value="great-t-shirt" class="vTextField" maxlength="200" required="" id="id_slug">
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-description">
+            
+            
+                <div>
+                    
+                    
+                        <label for="id_description">Description:</label>
+                        
+                            <textarea name="description" cols="40" rows="10" class="vLargeTextField" maxlength="500" id="id_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vehicula risus eget risus mattis, ac finibus ipsum blandit. Praesent facilisis ac neque quis pellentesque. Suspendisse accumsan, ligula et tincidunt dictum, odio magna malesuada quam, a viverra massa lacus finibus sapien. Donec fermentum tortor non mauris viverra, ac porttitor eros tempus. Vestibulum mollis varius nulla, ac luctus tortor scelerisque nec. Nulla a ex tortor. Donec augue metus, bibendum eget lorem nec, euismod rhoncus</textarea>
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-price">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_price">Price:</label>
+                        
+                            <input type="number" name="price" value="500" class="vIntegerField" required="" id="id_price">
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-images">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_images">Images:</label>
+                        
+                            <p class="file-upload">Currently: <a href="http://localhost:8000/media/photos/products/Great-Tshirt.jpg">photos/products/Great-Tshirt.jpg</a><br>
+Change:
+<input type="file" name="images" accept="image/*" id="id_images"></p>
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-stock">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_stock">Stock:</label>
+                        
+                            <input type="number" name="stock" value="120" class="vIntegerField" required="" id="id_stock">
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-is_available">
+            
+            
+                <div class="checkbox-row">
+                    
+                    
+                        <input type="checkbox" name="is_available" id="id_is_available" checked=""><label class="vCheckboxLabel" for="id_is_available">Is available</label>
+                    
+                    
+                </div>
+            
+        </div>
+    
+        <div class="form-row field-category">
+            
+            
+                <div>
+                    
+                    
+                        <label class="required" for="id_category">Category:</label>
+                        
+                            <div class="related-widget-wrapper">
+    <select name="category" required="" id="id_category">
+  <option value="">---------</option>
+
+  <option value="1" selected="">t shirt</option>
+
+  <option value="2">jeans</option>
+
+  <option value="3">shirt</option>
+
+  <option value="4">jacket</option>
+
+  <option value="5">shoes</option>
+
+</select>
+    
+        <a class="related-widget-wrapper-link change-related" id="change_id_category" data-href-template="/admin/category/category/__fk__/change/?_to_field=id&amp;_popup=1" title="Change selected category" href="http://localhost:8000/admin/category/category/1/change/?_to_field=id&amp;_popup=1"><img src="./Change product _ Django site admin_files/icon-changelink.svg" alt="Change"></a><a class="related-widget-wrapper-link add-related" id="add_id_category" href="http://localhost:8000/admin/category/category/add/?_to_field=id&amp;_popup=1" title="Add another category"><img src="./Change product _ Django site admin_files/icon-addlink.svg" alt="Add"></a>
+    
+</div>
+                        
+                    
+                    
+                </div>
+            
+        </div>
+    
+</fieldset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="submit-row">
+
+<input type="submit" value="Save" class="default" name="_save">
+
+    
+    <p class="deletelink-box"><a href="http://localhost:8000/admin/store/product/3/delete/" class="deletelink">Delete</a></p>
+
+
+<input type="submit" value="Save and add another" name="_addanother">
+<input type="submit" value="Save and continue editing" name="_continue">
+
+
+</div>
+
+
+
+    <script id="django-admin-form-add-constants" src="./Change product _ Django site admin_files/change_form.js.download" async="">
+    </script>
+
+
+
+
+<script id="django-admin-prepopulated-fields-constants" src="./Change product _ Django site admin_files/prepopulate_init.js.download" data-prepopulated-fields="[{&quot;id&quot;: &quot;#id_slug&quot;, &quot;name&quot;: &quot;slug&quot;, &quot;dependency_ids&quot;: [&quot;#id_product_name&quot;], &quot;dependency_list&quot;: [&quot;product_name&quot;], &quot;maxLength&quot;: 200, &quot;allowUnicode&quot;: false}]">
+</script>
+
+
+</div>
+</form></div>
+
+          
+          <br class="clear">
+        </div>
+        <!-- END Content -->
+        <div id="footer"></div>
+      </div>
+    </div>
+</div>
+<!-- END Container -->
+
+
+</body></html>
