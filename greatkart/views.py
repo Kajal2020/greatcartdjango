@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from store.models import Product
+from django.http import HttpResponse
 
 def home(request):
     products = Product.objects.all().filter(is_available = True)
@@ -8,3 +9,7 @@ def home(request):
         'products': products,
     }
     return render(request, 'home.html', context)
+
+
+def test(request):
+    return HttpResponse('Ok')
